@@ -45,11 +45,11 @@ if(form){
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
     <div class="modal">
-      <h3>Policy Notice</h3>
-      <p>By continuing to use this site, you agree to our terms and privacy policy. This notice is for informational purposes.</p>
+      <h3>Age Verification</h3>
+      <p>You must be 18 or older to enter this site.</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <button class="btn" id="age-yes">Yes, Accept</button>
-        <button class="btn ghost" id="age-no">Close</button>
+        <button class="btn" id="age-yes">I am 18 or older,</button>
+        <button class="btn ghost" id="age-no">I am under 18</button>
       </div>
     </div>`;
   document.body.appendChild(bd);
